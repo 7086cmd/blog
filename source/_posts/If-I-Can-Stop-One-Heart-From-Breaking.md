@@ -1,7 +1,7 @@
 ---
 title: If I Can Stop One Heart From Breaking
 date: 2024-02-09 23:43:44
-tags:
+tags: 'Lyrics, Honkai: Star Rail'
 ---
 
 [Verse]
