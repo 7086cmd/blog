@@ -3,7 +3,8 @@ title: If I Can Stop One Heart From Breaking
 date: 2024-02-09 23:43:44
 tags:
 ---
-[Verse 1]
+
+[Verse]
 Birds are born with no shackles
 Then what fetters my fate?
 Blown away, the white petals
@@ -30,14 +31,8 @@ But how could I escape?
 [Pre-Chorus]
 No further hesitation
 On those unanswered questions
-So now, I’ll make a dream unchained
-You might also like
-WHITE NIGHT
-Jake Miller
-IU - Love wins all (Romanized)
-Genius Romanizations
-Creepy Nuts - Bling-Bang-Bang-Born (Romanized)
-Genius Romanizations
+So now, I'll make a dream unchained
+
 [Chorus]
 Let my heart bravely spread the wings
 Soaring past the night, to trace the primal light
