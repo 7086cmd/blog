@@ -1,7 +1,8 @@
 ---
 title: Something about Computer Vision
 date: 2024-02-10 00:13:14
-tags:
+tags: CV,Python,Math
+mathjax: true
 ---
 This article is from the source PDF when I was participating the Shenzhen InnoX 2024 Winter Camp (High School) and learned the `Computer Vision` a little bit.
 
@@ -52,8 +53,10 @@ After the calibration, you can use the `solvePnP` method to get the external par
 The external parameter is the transform matrix from the camera coordinate system to the vehicle coordinate system. It can be used to calculate the position of the vehicle.
 
 $$
-\begin{bmatrix}
-\boldsymbol{R} & \boldsymbol{t} \\
-\boldsymbol{0} & 1
-\end{bmatrix}
+\left(
+\begin{matrix}
+  \boldsymbol{R} & \boldsymbol{t} \\
+  \boldsymbol{0} & 1 \\
+\end{matrix}
+\right)
 $$
