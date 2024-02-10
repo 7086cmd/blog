@@ -17,3 +17,5 @@ ZVMS V4 Preview Page: [https://v4.zvms.site/](https://v4.zvms.site/)
 GitHub Personal Page: [https://github.com/7086cmd](https://github.com/7086cmd)
 
 GitHub Organization Page: [https://github.com/zz-developer](https://github.com/zz-developer)
+
+ZVMS Navigation: [https://zhzx.top/](https://zhzx.top/)
