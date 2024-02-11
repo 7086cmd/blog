@@ -3,6 +3,8 @@ title: Something about Computer Vision
 date: 2024-02-10 00:13:14
 tags: CV, Python, Math
 mathjax: true
+highlight:
+  enable: false
 ---
 This article is from the source PDF when I was participating the Shenzhen InnoX 2024 Winter Camp (High School) and learned the `Computer Vision` a little bit.
 
