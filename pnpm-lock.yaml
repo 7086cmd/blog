@@ -27,8 +27,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   hexo-math:
-    specifier: ^4.0.0
-    version: 4.0.0
+    specifier: ^5.0.0
+    version: 5.0.0
   hexo-prism-plugin:
     specifier: ^2.3.0
     version: 2.3.0
@@ -524,13 +524,14 @@ packages:
     resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
     dev: false
 
-  /commander@2.20.3:
-    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
-    dev: false
-
   /commander@5.1.0:
     resolution: {integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==}
     engines: {node: '>= 6'}
+    dev: false
+
+  /commander@8.3.0:
+    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
+    engines: {node: '>= 12'}
     dev: false
 
   /commander@9.2.0:
@@ -1323,12 +1324,12 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /hexo-math@4.0.0:
-    resolution: {integrity: sha512-oMVa9bVXljQ8F3y0euVwOhkkiTfH3vxEV+dWT7lWbxNjtxV9MvpTG4BkDNSgM1frv+sP549FuPx39KqqEHmAgA==}
-    engines: {node: '>= 10.13.0'}
+  /hexo-math@5.0.0:
+    resolution: {integrity: sha512-Yz7sHMc5BQPWC7Y4NL+I+eWB39i3oPnZjpRFeql7Ok7g8tGEOSFZkK5ImqMPNvtGZxbwJt8ks8NqJwJMb0YnXg==}
+    engines: {node: '>= 14'}
     dependencies:
-      hexo-util: 2.7.0
-      katex: 0.12.0
+      hexo-util: 3.3.0
+      katex: 0.16.10
       mathjax: 3.2.2
     dev: false
 
@@ -1423,6 +1424,20 @@ packages:
 
   /hexo-util@3.2.0:
     resolution: {integrity: sha512-iM2eS8P88IUpcgiU2szx584bwhXzjzLLqED6WwDk55wYQZrQh/sni/UJwmoW4pxpgubbISIUPXr4LjwPyJuYzA==}
+    engines: {node: '>=14'}
+    requiresBuild: true
+    dependencies:
+      camel-case: 4.1.2
+      cross-spawn: 7.0.3
+      deepmerge: 4.3.1
+      highlight.js: 11.9.0
+      htmlparser2: 9.1.0
+      prismjs: 1.29.0
+      strip-indent: 3.0.0
+    dev: false
+
+  /hexo-util@3.3.0:
+    resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
     engines: {node: '>=14'}
     requiresBuild: true
     dependencies:
@@ -1841,11 +1856,11 @@ packages:
       promise: 7.3.1
     dev: false
 
-  /katex@0.12.0:
-    resolution: {integrity: sha512-y+8btoc/CK70XqcHqjxiGWBOeIL8upbS0peTPXTvgrh21n1RiWWcIpSWM+4uXq+IAgNh9YYQWdc7LVDPDAEEAg==}
+  /katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
     hasBin: true
     dependencies:
-      commander: 2.20.3
+      commander: 8.3.0
     dev: false
 
   /kind-of@3.2.2:
