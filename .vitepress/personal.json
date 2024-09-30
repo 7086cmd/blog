@@ -1,0 +1,23 @@
+[
+  {
+    "text": "Introduction",
+    "link": "/personal/"
+  },
+  {
+    "text": "2024",
+    "items": [
+      {
+        "text": "2024-02-27",
+        "link": "/personal/2024-02-27"
+      },
+      {
+        "text": "2024-05-10",
+        "link": "/personal/2024-05-10"
+      },
+      {
+        "text": "2024-10-01",
+        "link": "/personal/2024-10-01"
+      }
+    ]
+  }
+]

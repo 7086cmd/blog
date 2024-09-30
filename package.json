@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "post:create": "node scripts/create-post.js",
+    "personal:create": "node scripts/create-personal.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vueuse/core": "^11.1.0",
+    "dayjs": "^1.11.13",
+    "prettier": "^3.3.3",
+    "vitepress": "^1.3.4",
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "markdown-it-mathjax3": "^4.3.2"
+  }
+}

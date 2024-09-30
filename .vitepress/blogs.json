@@ -1,0 +1,23 @@
+[
+  {
+    "text": "Introduction",
+    "link": "/blog/"
+  },
+  {
+    "text": "2024",
+    "items": [
+      {
+        "text": "Something about Computer Vision",
+        "link": "/blog/2024-02-10-something-about-computer-vision"
+      },
+      {
+        "text": "ZVMS 4 Trophy Page",
+        "link": "/blog/2024-02-11-zvms-4-trophy-page"
+      },
+      {
+        "text": "Hello World",
+        "link": "/blog/2024-09-30-hello-world"
+      }
+    ]
+  }
+]
