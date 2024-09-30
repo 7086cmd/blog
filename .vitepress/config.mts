@@ -22,6 +22,8 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "github", link: "https://github.com/7086cmd" },
+      { icon: "x", link: "https://x.com/7086cmd" },
+      { icon: "instagram", link: "https://www.instagram.com/ethangoh7086cmd" }
     ],
     footer: {
       message: `Released under the MIT License.`,
