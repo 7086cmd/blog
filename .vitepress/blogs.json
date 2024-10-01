@@ -17,6 +17,10 @@
       {
         "text": "Hello World",
         "link": "/blog/2024-09-30-hello-world"
+      },
+      {
+        "text": "Performance Optimization via Avoid Cloning",
+        "link": "/blog/2024-10-01-performance-optimization-via-avoid-cloning"
       }
     ]
   }
