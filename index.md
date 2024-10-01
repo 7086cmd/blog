@@ -10,8 +10,10 @@ hero:
     - theme: brand
       text: Blog
       link: /blog
+    - theme: alt
+      text: RSS
+      link: /rss.xml
   image:
     src: https://github.com/7086cmd.png
     alt: Ethan's Avatar
-
 ---

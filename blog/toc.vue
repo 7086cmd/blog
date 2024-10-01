@@ -9,14 +9,16 @@ import dayjs from "dayjs";
   <ul class="posts">
     <li class="post" v-for="post in posts" :key="post.url">
       <a class="link" :href="post.url">
-        <div class="date">{{ dayjs(post.frontmatter.date).format("MMM D, YYYY") }}</div>
+        <div class="date">
+          {{ dayjs(post.frontmatter.date).format("MMM D, YYYY") }}
+        </div>
         <div class="title">{{ post.frontmatter.title }}</div>
         <div class="excerpt" v-html="post.frontmatter.description" />
         <div class="authors" v-if="post.frontmatter.authors">
           <img
-              v-for="author in post.frontmatter.authors"
-              :key="author"
-              :src="`https://www.github.com/${author}.png`"
+            v-for="author in post.frontmatter.authors"
+            :key="author"
+            :src="`https://www.github.com/${author}.png`"
           />
         </div>
       </a>
@@ -38,13 +40,17 @@ import dayjs from "dayjs";
   border-radius: 12px;
   background-color: var(--vp-c-bg-soft);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition-duration: .7s;
+  transition-duration: 0.7s;
   transition-property: all;
-  box-shadow: 0 18px 56px rgba(0, 0, 0, 0.16), 0 4px 12px rgba(0, 0, 0, 0.16);
+  box-shadow:
+    0 18px 56px rgba(0, 0, 0, 0.16),
+    0 4px 12px rgba(0, 0, 0, 0.16);
 }
 .post:hover {
   background-color: var(--vp-c-gray-3);
-  box-shadow: 0 18px 56px rgba(0, 0, 0, 0.16), 6px 12px 12px -2px var(--vp-c-brand-1);
+  box-shadow:
+    0 18px 56px rgba(0, 0, 0, 0.16),
+    6px 12px 12px -2px var(--vp-c-brand-1);
 }
 .post .date {
   font-size: 0.75rem;

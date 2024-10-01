@@ -6,6 +6,7 @@ description: Nothing.
 authors:
   - 7086cmd
 ---
+
 <AppBlogPostHeader />
 
 Tags: <Badge text="Python" type="warning" /><Badge text="Machine Learning" type="info" /><Badge text="Technical Writing" type="tip" /><Badge text="English" type="danger" />

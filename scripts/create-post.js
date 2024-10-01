@@ -12,11 +12,17 @@ const tags = argv.slice(3);
 
 const filename = `blog/${date}-${slug}.md`;
 const content = `---
-title: "${title}"
-date: "${date}"
+title: ${title}
+date: ${date}
 outline: deep
 authors:
   - 7086cmd
+categories: [${tags
+  .map((tag) => {
+    const tagInfo = tagIndex.find((t) => t.short === tag);
+    return tagInfo.name;
+  })
+  .join(", ")}]
 ---
 <AppBlogPostHeader />
 

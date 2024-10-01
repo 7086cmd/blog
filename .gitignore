@@ -4,3 +4,4 @@ cache
 .vitepress/dist
 .DS_Store
 .idea
+rss.xml

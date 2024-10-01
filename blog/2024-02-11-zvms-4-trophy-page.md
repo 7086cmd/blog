@@ -6,6 +6,7 @@ description: Nothing.
 authors:
   - 7086cmd
 ---
+
 <AppBlogPostHeader />
 
 Tags: <Badge text="JavaScript / TypeScript" type="warning" /><Badge text="Web Development" type="info" /><Badge text="Technical Writing" type="tip" /><Badge text="English" type="danger" />
@@ -19,13 +20,13 @@ The aim of this page is to provide a clear and concise way to display the reward
 ## Features
 
 - Department Permission (and above) can create `Trophy`s, which includes the following information:
-    - Name
-    - Description
-    - Level (e.g. District, City, Province, National, International)
-    - Type (e.g. Academic, Sports, Art, etc.)
-    - Time
-    - Instructor (Leading Teacher)
-    - Awards (Arrays of `name` and `duration`)
+  - Name
+  - Description
+  - Level (e.g. District, City, Province, National, International)
+  - Type (e.g. Academic, Sports, Art, etc.)
+  - Time
+  - Instructor (Leading Teacher)
+  - Awards (Arrays of `name` and `duration`)
 - Secretary Permission (and above) apply for `Trophy`s but needed to be approved by the Department Permission (and above).
 - Students (plain) can register for `Trophy`s, and select the awards they have won (e.g. First Prize, Second Prize, Third Prize, etc. It is claimed when creating the `Trophy`).
 - Students (plain) can view their own `Trophy`s and the awards they have won.
